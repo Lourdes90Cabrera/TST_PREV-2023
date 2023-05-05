@@ -52,7 +52,7 @@ int main()
         /* Luego se le pregunta al empleado si ha realizado ventas en el més en caso de que la respuesta sea positiva
         entonces se realiza la condición en la cual le pide que ingrese las ganancias totales*/
 
-        cout << " Usted ha generado ventas en el mes? "<<endl;
+        cout << "Usted ha generado ventas en el mes? "<<endl;
         cout << "[SI] o [NO]"<<endl;
         cin >> respuesta_ventas;
 
@@ -71,8 +71,8 @@ int main()
 
                 /** Se le pregunta si desea el cargo */
 
-                cout << " Desea aceptar el ascenso? "<<endl;
-                cout << " [SI] o [NO]"<<endl;
+                cout << "Desea aceptar el ascenso? "<<endl;
+                cout << "[SI] o [NO]"<<endl;
                 cin >> respuesta_usuario;
 
                 if (respuesta_usuario == 'S')
@@ -101,11 +101,11 @@ int main()
     {
 
         Total_suma_sav = salario * suma_sav;
-        cout << " Se le ha aplicado un 0.20 al subsidio el total es de :  " << Total_suma_sav <<endl;
+        cout << "Se le ha aplicado un 0.20 al subsidio el total es de :  " << Total_suma_sav <<endl;
     }
 
-    cout << " Desea generar otro reporte? "<<endl;
-    cout << " [SI] o [NO]"<<endl;
+    cout << "Desea generar otro reporte? "<<endl;
+    cout << "[SI] o [NO]"<<endl;
     cin >> respuesta;
 
     if (respuesta == 'S') {
@@ -127,6 +127,7 @@ int main()
         cout << "Se le ha aplicado un 0.30 al subsidio el total es de :  " << Total_sav<<endl;
 
         cout << "Ingrese el genero al que pertenece "<<endl;
+        cout << "[Femenino] o [Masculino] Ingrese una letra F o M" <<endl;
         cin >> respuesta_genero;
 
         /* Se realiza la condición para determinar si el empleado es hombre o mujer
@@ -145,7 +146,7 @@ int main()
         /* Luego se le pregunta al empleado si ha realizado ventas en el més en caso de que la respuesta sea positiva
         entonces se realiza la condición en la cual le pide que ingrese las ganancias totales*/
 
-        cout << " Usted ha generado ventas en el mes? "<<endl;
+        cout << "Usted ha generado ventas en el mes? "<<endl;
         cout << "[SI] o [NO]"<<endl;
         cin >> respuesta_ventas;
 
@@ -164,8 +165,8 @@ int main()
 
                 /** Se le pregunta si desea el cargo */
 
-                cout << " Desea aceptar el ascenso? "<<endl;
-                cout << " [SI] o [NO]"<<endl;
+                cout << "Desea aceptar el ascenso? "<<endl;
+                cout << "[SI] o [NO]"<<endl;
                 cin >> respuesta_usuario;
 
                 if (respuesta_usuario == 'S')
@@ -194,11 +195,11 @@ int main()
     {
 
         Total_suma_sav = salario * suma_sav;
-        cout << " Se le ha aplicado un 0.20 al subsidio el total es de :  " << Total_suma_sav << endl;
+        cout << "Se le ha aplicado un 0.20 al subsidio el total es de :  " << Total_suma_sav << endl;
     }
 
-    cout << " Desea generar otro reporte? "<<endl;
-    cout << " [SI] o [NO]"<<endl;
+    cout << "Desea generar otro reporte? "<<endl;
+    cout << "[SI] o [NO]"<<endl;
     cin >> respuesta;
     
 
